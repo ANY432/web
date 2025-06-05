@@ -1,0 +1,55 @@
+header
+{
+    background-color: darkorchid;
+    font-family: cursive;
+    padding: 30px;
+}
+nav{
+    justify-content: center;
+    display: flex;/*centrar la barra de navegacion*/
+    background-color: darkturquoise;
+    text-align: center;
+    font-size: 40px;
+    grid-gap: 80px;
+}
+aside{
+    background:linear-gradient(45deg, pink, darkturquoise, violet);
+    float:right;
+    border-radius: 90px;
+   /* width: auto;*/
+   /* height: 800px;*/
+    padding: 40px;
+    font-size: 22px;
+    font-family: monospace;
+    
+   /* position: fixed;*/
+    
+}
+section{
+    background-color: #71BAE5;
+    margin-top: 670px;
+}
+article{
+    background: linear-gradient(45deg, blue, #FF808D, #C1D3E6);
+    margin-top: 50px;
+    border-radius: 100px;
+     
+}
+footer{
+    background-color: darkorchid;
+}
+body{
+    background-image: url(Med.JPG);
+    background-size: cover;
+    
+    
+}
+.parrafo1{
+    font-family: monospace;
+    font-size: 20px;
+     font-style: italic;
+    background-color: aquamarine;
+    box-shadow: 10px;
+    text-align: justify;
+    text-decoration: line-through;
+}
